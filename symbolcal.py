@@ -1,5 +1,8 @@
 from __future__ import division
 from sympy import *
+
+from sympy.plotting import plot
+
 # from sympy.abc import x
 
 x,y,z,t=symbols('x y z t')
@@ -16,3 +19,7 @@ numb=g.evalf(subs={x:0})/factorial(m)
 
 print(f)
 print(numb)
+
+# x = symbols('x')
+# plot(sqrt(x^2+x^3),x,0,2)
+#
